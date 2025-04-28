@@ -1,0 +1,242 @@
+<<<<<<< HEAD
+
+@font-face{
+    font-family: 'Bravecho.otf';
+    src: url('fontes/Bravecho.otf') format('otf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face{
+    font-family: "sakitu baelah.otf";
+    src: url('fontes/Sakitu\ Baelah.otf') format('otf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+
+
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 1200px;
+    padding: 15px;
+
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 15px;
+    
+}
+a{
+    color: white;
+}
+
+a:hover{
+    color: blueviolet;
+    transform: 0.3s all;
+}
+#inscreva{
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+#inscreva:hover{
+    background-color: blueviolet;
+    color: white;
+}
+h1{
+    font-weight: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'sakitu baelah.otf', 'Arial Narrow', Arial, sans-serif;
+}
+
+span{
+    color: rgb(132,14,201);
+}
+
+p{
+   line-height: 20px; 
+  }
+    img{
+        width: 620px;
+    }
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+form [type="submit"]{
+    height: 20px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bolder;
+
+}
+form [type="submit"]:hover{
+  
+    background-color: rgb(121, 8, 226);
+    color: white;
+    cursor: pointer;
+    
+=======
+
+@font-face{
+    font-family: 'Bravecho.otf';
+    src: url('fontes/Bravecho.otf') format('otf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face{
+    font-family: "sakitu baelah.otf";
+    src: url('fontes/Sakitu\ Baelah.otf') format('otf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+
+
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 1200px;
+    padding: 15px;
+
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 15px;
+    
+}
+a{
+    color: white;
+}
+
+a:hover{
+    color: blueviolet;
+    transform: 0.3s all;
+}
+#inscreva{
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+#inscreva:hover{
+    background-color: blueviolet;
+    color: white;
+}
+h1{
+    font-weight: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'sakitu baelah.otf', 'Arial Narrow', Arial, sans-serif;
+}
+
+span{
+    color: rgb(132,14,201);
+}
+
+p{
+   line-height: 20px; 
+  }
+    img{
+        width: 620px;
+    }
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+form [type="submit"]{
+    height: 20px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bolder;
+
+}
+form [type="submit"]:hover{
+  
+    background-color: rgb(121, 8, 226);
+    color: white;
+    cursor: pointer;
+    
+>>>>>>> f01f1a72401e606990303f351dee9a7b1acd7491
+}
